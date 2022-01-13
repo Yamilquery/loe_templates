@@ -5,6 +5,19 @@ module.exports = {
       sm: {max: '600px'},
     },
     extend: {
+      colors: {
+        primary: '#173540',
+        secondary: '#4bad94',
+        brick: '#a94442',
+        delete: '#DB4437',
+        dark: '#14323d',
+        carousel: '#328f75',
+        'dedede': '#dedede',
+        'c0c0c0': '#c0c0c0',
+        '999999': '#999999',
+        '888888': '#888888',
+        'e0e0e0': '#e0e0e0',
+      },
       spacing: {
         screen: '100vw',
         full: '100%',

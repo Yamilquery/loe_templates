@@ -21,5 +21,14 @@ module.exports = {
         destination: 'images',
       },
     },
+    browsersync: {
+      directory: true,
+      notify: false,
+      open: false,
+      port: 3000,
+      tunnel: false,
+      ui: {port: 3001},
+      watch: [],
+    }
   },
 }
